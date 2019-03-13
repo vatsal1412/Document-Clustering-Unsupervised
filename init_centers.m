@@ -1,4 +1,4 @@
-% This function implements K-Means++ center initialization algorithm 
+% This function implements K-Means++ center initialization algorithm
 % for a set of input vectors, and an *initial* set of cluster centers.
 %
 % function [centers]=init_centers(data,k,init_algo)
@@ -12,6 +12,7 @@
 %                     centers based on the kmeans++ alg.
 %
 % Outputs: centers - Initial cluster centers
+
 
 function [centers] = init_centers(data,k,init_algo)
   centers = zeros(k, size(data, 2));
