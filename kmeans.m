@@ -1,5 +1,3 @@
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-%
 % This function implements K-means clustering for a set of input
 %  vectors, and an *initial* set of cluster centers.
 %
@@ -21,9 +19,6 @@
 %                   which cluster each input point belongs to.
 %                   e.g. if data point i belongs to cluster j,
 %                   then labels(i)=j
-%
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-
 
 function [centers,labels]=kmeans(data,cent_init,k)
 
